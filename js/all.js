@@ -14,7 +14,7 @@ const mobileMenuOpen = () => {
     document.querySelector('.mobile-menu__open').addEventListener('click', function () {
         let menu = document.querySelector('.header__mobile-block');
         menu.classList.add('open');
-        // menu.style.top = menu.style.top === '0%' ? '-100%' : '0%';
+        document.body.classList.add('no-scroll-popup');
     });
 }
 const mobileMenuClose = () => {
@@ -22,7 +22,7 @@ const mobileMenuClose = () => {
     document.querySelector('.header__mobile-close').addEventListener('click', function () {
         let menu = document.querySelector('.header__mobile-block');
         menu.classList.remove('open');
-        // menu.style.top = menu.style.top === '-100%' ? '0%' : '-100%';
+        document.body.classList.remove('no-scroll-popup');
     });
 }
 const language = () => {
