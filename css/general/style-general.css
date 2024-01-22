@@ -1,0 +1,3428 @@
+/*! Varriables */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+/*============================================================================
+	#Fonts
+==============================================================================*/
+@font-face {
+  font-family: "Inter";
+  src: url("../../../../assets/fontsInter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../../../assets/fontsInter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../../../assets/fontsInter-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../../../../assets/fontsInter-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+/*============================================================================
+	#Global
+==============================================================================*/
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+.lazy-background {
+  background: inherit !important;
+}
+
+body {
+  height: 100%;
+  font-family: "Inter", sans-serif;
+  animation: 0.5s;
+  overflow-x: hidden;
+  color: #0B0B0B;
+  max-width: 1920px;
+  margin: 0 auto !important;
+}
+
+.root.overlay {
+  transform: inherit !important;
+}
+
+.no-scroll {
+  overflow: hidden;
+  position: relative;
+}
+
+.no-scroll-popup {
+  overflow: hidden;
+  position: relative;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+svg {
+  vertical-align: top;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100vw;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
+.no-scroll-popup {
+  position: static;
+  height: auto;
+  overflow-y: hidden;
+}
+@media (max-width: 1199.98px) {
+  .no-scroll-popup {
+    position: relative;
+    height: inherit;
+    overflow: hidden;
+  }
+}
+
+a {
+  text-decoration: inherit;
+}
+a:hover {
+  cursor: pointer;
+}
+
+.compensate-for-scrollbar {
+  margin: 0 auto !important;
+}
+
+body.compensate-for-scrollbar {
+  overflow: hidden;
+}
+
+.lazy-background {
+  background: inherit !important;
+}
+
+@media (max-width: 1199.98px) {
+  .container {
+    padding: 0 15px;
+    max-width: 100%;
+  }
+  .root {
+    margin-top: 0;
+  }
+}
+/*============================================================================
+	#Typography
+==============================================================================*/
+html {
+  font-size: 100%;
+}
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+  color: #0B0B0B;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 2.625rem;
+  line-height: 3.0625rem;
+  margin: 56px 0;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  color: #0B1F2F;
+  margin: 2.5rem 0;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 1.625rem;
+  line-height: 1.875rem;
+  margin: 2.5rem 0;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  margin: 2.5rem 0;
+}
+
+h6 {
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  color: #0B1F2F;
+  margin: 2.5rem 0;
+  font-weight: 500;
+}
+
+.typography h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin: 2.5rem 0;
+}
+.typography h2 {
+  font-weight: 300;
+  font-size: 2.625rem;
+  line-height: 3.0625rem;
+  margin: 2.5rem 0;
+}
+.typography h3 {
+  font-size: 1.5rem;
+  line-height: 2.063rem;
+}
+.typography h4 {
+  font-size: 1.325rem;
+  line-height: 1.875rem;
+}
+.typography h5 {
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+}
+.typography h6 {
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+}
+
+.typography > *:last-child {
+  margin-bottom: 0;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+.typography p,
+.typography ul li,
+.typography ol li {
+  color: #0B1F2F;
+  font-weight: 400;
+}
+
+.typography strong {
+  font-weight: 700;
+}
+
+.typography iframe {
+  width: 100%;
+  height: 422px;
+  margin: 33px 0;
+}
+
+blockquote, .typography blockquote {
+  position: relative;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  color: #C4895F;
+  margin: 60px 0 53px;
+  padding: 48px 0 1.875rem;
+  border-bottom: 2px solid #C4895F;
+  border-top: 2px solid #C4895F;
+}
+blockquote p, .typography blockquote p {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  color: #0B1F2F;
+}
+
+blockquote:after, .typography blockquote:after {
+  position: absolute;
+  bottom: 8px;
+  left: 200px;
+  width: 115px;
+  height: 2.5rem;
+  background-image: url("/assets/icons/quotes.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  background-color: #fff;
+  top: -1rem;
+}
+
+.typography p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.typography p strong {
+  color: #0B0B0B;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.typography p a {
+  font-size: 1.125rem;
+  line-height: 1.8125rem;
+  border-bottom: 8px solid rgba(196, 137, 94, 0.4);
+  color: rgb(196, 137, 95);
+  text-decoration-line: inherit;
+}
+.typography p a:hover {
+  text-decoration-line: inherit;
+}
+
+.typography a {
+  font-size: 1.125rem;
+  line-height: 1.8125rem;
+  text-decoration-line: inherit;
+  border-bottom: 8px solid rgba(196, 137, 94, 0.4);
+  color: rgb(196, 137, 95);
+}
+.typography a:hover {
+  text-decoration-line: inherit;
+}
+
+.typography blockquote p:last-child {
+  margin: 0;
+}
+
+.typography p img {
+  max-width: 100%;
+  margin-bottom: 1.875rem;
+  margin-top: 2.5rem;
+}
+
+.typography iframe {
+  max-width: 100%;
+  height: 420px;
+}
+
+.typography img {
+  max-width: 100%;
+  margin-bottom: 17px;
+  margin-top: 32px;
+}
+@media (max-width: 767.98px) {
+  .typography img {
+    margin-top: 24px;
+  }
+}
+
+.typography ul {
+  list-style: none;
+  padding: 0;
+  margin: 56px 0;
+}
+
+.typography ul li {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 33px;
+}
+
+.typography ul li:before {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 8px;
+  height: 8px;
+  background: #7339F5;
+  content: "";
+  border-radius: 50%;
+}
+
+.typography ol {
+  list-style: none;
+  counter-reset: my-counter;
+  padding: 0;
+  margin: 0 0 47px;
+}
+
+.typography ol li {
+  counter-increment: my-counter;
+  font-style: normal;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 9px;
+  position: relative;
+  padding: 0 0 0 33px;
+}
+
+.typography ol li::before {
+  content: counter(my-counter) ". ";
+  font-style: normal;
+  color: #7339F5;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.seo-block {
+  padding-top: 2.5rem;
+  max-width: 1140px;
+  margin: 0 auto 2.5rem;
+}
+.seo-block__content {
+  margin: 0 auto;
+  max-width: 1140px;
+  position: relative;
+  overflow: hidden;
+}
+
+.seo-block__addition .seo-block__change {
+  height: 280px;
+  overflow: hidden;
+  transition: height 1s;
+}
+.seo-block__addition .seo-block__change:before {
+  content: "";
+  position: absolute;
+  top: 11.875rem;
+  left: 0;
+  width: 100%;
+  height: 296px;
+  background-image: url(/assets/images/home/seo/bg.png);
+  transition: opacity 1s;
+}
+
+.seo-block__change.open:before {
+  opacity: 0;
+}
+
+.seo-block__events.open .seo-block__hide {
+  display: none;
+}
+
+.seo-block__events.close .seo-block__more {
+  display: none;
+}
+
+.seo-block__events.close .seo-block__hide {
+  display: block;
+  padding-top: 1.125rem;
+  text-transform: uppercase;
+  color: #0b1f2f;
+  font-weight: 600;
+  font-size: 0.813rem;
+  line-height: 0.125rem;
+}
+.seo-block__events.close .seo-block__hide:hover {
+  cursor: pointer;
+}
+
+.seo-block__events .seo-block__more {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.813rem;
+  line-height: 0.125rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #0b1f2f;
+  margin-top: 15px;
+}
+.seo-block__events .seo-block__more:hover {
+  cursor: pointer;
+}
+
+.seo-block__more img {
+  margin: 3px;
+}
+
+.seo-block {
+  padding-top: 2.5rem;
+  max-width: 1140px;
+  margin: 0 auto 80px;
+}
+
+.video-block {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  margin: 20px 0px 20px 0px;
+}
+
+.yt-player {
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-size: contain;
+}
+.yt-player:hover {
+  cursor: pointer;
+}
+
+.yt-player__button {
+  width: 65px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: opacity 0.25s cubic-bezier(0, 0, 0.2, 1);
+  z-index: 1;
+  background: inherit;
+  border: 0;
+  background-image: none;
+  transform: translate(-50%, -50%);
+  padding: 0;
+}
+.yt-player__button:hover {
+  cursor: pointer;
+}
+
+.yt-player__button svg {
+  width: 65px;
+  height: 50px;
+}
+
+.yt-player iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.yt-player.video iframe {
+  z-index: 1;
+}
+
+@media (max-width: 1199px) {
+  .typography p, .typography ol li, .typography ul li {
+    font-size: 1rem;
+  }
+  blockquote:before, .typography blockquote:before {
+    left: -2.5rem;
+  }
+  blockquote:after, .typography blockquote:after {
+    left: 80px;
+  }
+}
+@media (max-width: 1023px) {
+  .typography h1 {
+    font-size: 2.25rem;
+    line-height: 2.875rem;
+  }
+  .typography h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  .typography h3 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .typography h4 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  blockquote {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+  .typography p a {
+    font-size: 0.875rem;
+  }
+}
+@media (max-width: 767px) {
+  .seo-block {
+    padding: 2.5rem 1.125rem;
+    margin-bottom: 1.125rem;
+  }
+  .typography ul {
+    margin: 1.875rem 0px 1.875rem 0;
+  }
+  .typography h1 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .typography h2 {
+    font-size: 1.625rem;
+    line-height: 2.25rem;
+  }
+  .typography h3 {
+    font-size: 24px;
+    line-height: 1.875rem;
+  }
+  .typography h4 {
+    font-size: 1.125rem;
+    line-height: 24px;
+  }
+  .typography h5 {
+    font-size: 0.125rem;
+    line-height: 24px;
+  }
+  .typography ol li::before {
+    font-size: 0.875rem;
+    line-height: 0.125rem;
+    top: 12px;
+  }
+  iframe {
+    height: 250px;
+  }
+  blockquote, .typography blockquote, .typography h6, blockquote h3 {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 2.5rem 0 2.5rem;
+  }
+  blockquote p, .typography blockquote p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+@media (max-width: 480px) {
+  blockquote:before, .typography blockquote:before, blockquote:after, .typography blockquote:after {
+    width: 60px;
+    height: 60px;
+  }
+  blockquote p, .typography blockquote p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+  .typography h1 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .typography h2 {
+    font-size: 1.625rem;
+    line-height: 2.25rem;
+  }
+  .typography h3 {
+    font-size: 24px;
+    line-height: 1.875rem;
+  }
+  .typography h4 {
+    font-size: 0.125rem;
+    line-height: 24px;
+  }
+  .typography h5 {
+    font-size: 1rem;
+    line-height: 24px;
+  }
+  iframe {
+    height: 250px;
+  }
+  .typography ol li {
+    padding: 0 0 0 1.875rem;
+  }
+  .typography h2, .typography h3, .typography h4, .typography h5 {
+    margin: 35px 0 1.125rem;
+  }
+  blockquote {
+    margin: 1.875rem 0;
+    padding: 1.125rem 0;
+  }
+  .typography ul li:before {
+    top: 8px;
+    left: 0;
+  }
+  .typography a, .typography ol li, .typography p, .typography p a, .typography ul li {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .typography iframe {
+    height: 250px;
+    margin: 15px 0;
+  }
+  .typography h1, .typography h2 {
+    margin: 25px 0 19px;
+  }
+  blockquote {
+    margin: 1.875rem 0 1.875rem 2.5rem;
+    padding: 1.125rem 0;
+  }
+  blockquote:before {
+    left: -75px;
+    width: 50px;
+    top: 1.125rem;
+    height: 45px;
+    background-size: 100%;
+  }
+  blockquote:after {
+    height: 45px;
+    width: 50px;
+    background-size: 100%;
+  }
+  blockquote:before, .typography blockquote:before {
+    left: -12px;
+  }
+  blockquote:before, .typography blockquote:before, blockquote:after, .typography blockquote:after {
+    width: 50px;
+    height: 50px;
+  }
+  blockquote:after, .typography blockquote:after {
+    background-size: 2.5rem;
+    left: 70px;
+  }
+  blockquote, .typography blockquote {
+    padding: 35px 0 1.875rem;
+  }
+}
+/*============================================================================
+	#general
+==============================================================================*/
+.color-black h1, .color-black h2, .color-black h3, .color-black h4, .color-black h5, .color-black label, .color-black p, .color-black i, .color-black span, .color-black li, .color-black a, .color-black blockquote, .color-black p > a, .color-black i > a, .color-black span > a, .color-black li > a, .color-black blockquote > a, .color-black ol > li, .color-black ol > li > a, .color-black ul > li, .color-black ul > li > a, .color-black ol, .color-black ul {
+  color: #0B0B0B;
+}
+
+.color-purple h1, .color-purple h2, .color-purple h3, .color-purple h4, .color-purple h5, .color-purple label, .color-purple p, .color-purple i, .color-purple span, .color-purple li, .color-purple a, .color-purple blockquote, .color-purple p > a, .color-purple i > a, .color-purple span > a, .color-purple li > a, .color-purple blockquote > a, .color-purple ol > li, .color-purple ol > li > a, .color-purple ul > li, .color-purple ul > li > a, .color-purple ol, .color-purple ul {
+  color: #7339F5;
+}
+
+.color-white h1, .color-white h2, .color-white h3, .color-white h4, .color-white h5, .color-white label, .color-white p, .color-white i, .color-white span, .color-white li, .color-white a, .color-white blockquote, .color-white p > a, .color-white i > a, .color-white span > a, .color-white li > a, .color-white blockquote > a, .color-white ol > li, .color-white ol > li > a, .color-white ul > li, .color-white ul > li > a, .color-white ol, .color-white ul {
+  color: #fff;
+}
+
+.size-12 {
+  font-size: calc(12rem / 16);
+  line-height: calc(14rem / 16);
+}
+.size-12 h1, .size-12 h2, .size-12 h3, .size-12 h4, .size-12 h5, .size-12 p, .size-12 i, .size-12 span, .size-12 li, .size-12 a, .size-12 blockquote, .size-12 p > a, .size-12 i > a, .size-12 span > a, .size-12 li > a, .size-12 blockquote > a, .size-12 ol > li, .size-12 ol > li > a, .size-12 ul > li, .size-12 ul > li > a, .size-12 ol, .size-12 ul {
+  font-size: calc(12rem / 16);
+  line-height: calc(14rem / 16);
+}
+
+.size-13 {
+  font-size: calc(13rem / 16);
+  line-height: calc(15rem / 16);
+}
+.size-13 h1, .size-13 h2, .size-13 h3, .size-13 h4, .size-13 h5, .size-13 p, .size-13 i, .size-13 span, .size-13 li, .size-13 a, .size-13 blockquote, .size-13 p > a, .size-13 i > a, .size-13 span > a, .size-13 li > a, .size-13 blockquote > a, .size-13 ol > li, .size-13 ol > li > a, .size-13 ul > li, .size-13 ul > li > a, .size-13 ol, .size-13 ul {
+  font-size: calc(13rem / 16);
+  line-height: calc(15rem / 16);
+}
+
+.size-14 {
+  font-size: calc(14rem / 16);
+  line-height: calc(16rem / 16);
+}
+.size-14 h1, .size-14 h2, .size-14 h3, .size-14 h4, .size-14 h5, .size-14 p, .size-14 i, .size-14 span, .size-14 li, .size-14 a, .size-14 blockquote, .size-14 p > a, .size-14 i > a, .size-14 span > a, .size-14 li > a, .size-14 blockquote > a, .size-14 ol > li, .size-14 ol > li > a, .size-14 ul > li, .size-14 ul > li > a, .size-14 ol, .size-14 ul {
+  font-size: calc(14rem / 16);
+  line-height: calc(16rem / 16);
+}
+
+.size-15 {
+  font-size: calc(15rem / 16);
+  line-height: calc(15rem / 16);
+}
+.size-15 h1, .size-15 h2, .size-15 h3, .size-15 h4, .size-15 h5, .size-15 p, .size-15 i, .size-15 span, .size-15 li, .size-15 a, .size-15 blockquote, .size-15 p > a, .size-15 i > a, .size-15 span > a, .size-15 li > a, .size-15 blockquote > a, .size-15 ol > li, .size-15 ol > li > a, .size-15 ul > li, .size-15 ul > li > a, .size-15 ol, .size-15 ul {
+  font-size: calc(15rem / 16);
+  line-height: calc(15rem / 16);
+}
+
+.size-16 {
+  font-size: calc(16rem / 16);
+  line-height: calc(26rem / 16);
+}
+.size-16 h1, .size-16 h2, .size-16 h3, .size-16 h4, .size-16 h5, .size-16 p, .size-16 i, .size-16 span, .size-16 li, .size-16 a, .size-16 blockquote, .size-16 p > a, .size-16 i > a, .size-16 span > a, .size-16 li > a, .size-16 blockquote > a, .size-16 ol > li, .size-16 ol > li > a, .size-16 ul > li, .size-16 ul > li > a, .size-16 ol, .size-16 ul {
+  font-size: calc(16rem / 16);
+  line-height: calc(26rem / 16);
+}
+
+.size-17 {
+  font-size: calc(17rem / 16);
+  line-height: calc(20rem / 16);
+}
+.size-17 h1, .size-17 h2, .size-17 h3, .size-17 h4, .size-17 h5, .size-17 p, .size-17 i, .size-17 span, .size-17 li, .size-17 a, .size-17 blockquote, .size-17 p > a, .size-17 i > a, .size-17 span > a, .size-17 li > a, .size-17 blockquote > a, .size-17 ol > li, .size-17 ol > li > a, .size-17 ul > li, .size-17 ul > li > a, .size-17 ol, .size-17 ul {
+  font-size: calc(17rem / 16);
+  line-height: calc(20rem / 16);
+}
+
+.size-18 {
+  font-size: calc(18rem / 16);
+  line-height: calc(24rem / 16);
+}
+.size-18 h1, .size-18 h2, .size-18 h3, .size-18 h4, .size-18 h5, .size-18 p, .size-18 i, .size-18 span, .size-18 li, .size-18 a, .size-18 blockquote, .size-18 p > a, .size-18 i > a, .size-18 span > a, .size-18 li > a, .size-18 blockquote > a, .size-18 ol > li, .size-18 ol > li > a, .size-18 ul > li, .size-18 ul > li > a, .size-18 ol, .size-18 ul {
+  font-size: calc(18rem / 16);
+  line-height: calc(24rem / 16);
+}
+
+.size-20 {
+  font-size: calc(20rem / 16);
+  line-height: calc(26rem / 16);
+}
+.size-20 h1, .size-20 h2, .size-20 h3, .size-20 h4, .size-20 h5, .size-20 p, .size-20 i, .size-20 span, .size-20 li, .size-20 a, .size-20 blockquote, .size-20 p > a, .size-20 i > a, .size-20 span > a, .size-20 li > a, .size-20 blockquote > a, .size-20 ol > li, .size-20 ol > li > a, .size-20 ul > li, .size-20 ul > li > a, .size-20 ol, .size-20 ul {
+  font-size: calc(20rem / 16);
+  line-height: calc(26rem / 16);
+}
+
+.size-22 {
+  font-size: calc(22rem / 16);
+  line-height: calc(32rem / 16);
+}
+.size-22 h1, .size-22 h2, .size-22 h3, .size-22 h4, .size-22 h5, .size-22 p, .size-22 i, .size-22 span, .size-22 li, .size-22 a, .size-22 blockquote, .size-22 p > a, .size-22 i > a, .size-22 span > a, .size-22 li > a, .size-22 blockquote > a, .size-22 ol > li, .size-22 ol > li > a, .size-22 ul > li, .size-22 ul > li > a, .size-22 ol, .size-22 ul {
+  font-size: calc(22rem / 16);
+  line-height: calc(32rem / 16);
+}
+
+.size-24 {
+  font-size: calc(24rem / 16);
+  line-height: calc(28rem / 16);
+}
+.size-24 h1, .size-24 h2, .size-24 h3, .size-24 h4, .size-24 h5, .size-24 p, .size-24 i, .size-24 span, .size-24 li, .size-24 a, .size-24 blockquote, .size-24 p > a, .size-24 i > a, .size-24 span > a, .size-24 li > a, .size-24 blockquote > a, .size-24 ol > li, .size-24 ol > li > a, .size-24 ul > li, .size-24 ul > li > a, .size-24 ol, .size-24 ul {
+  font-size: calc(24rem / 16);
+  line-height: calc(28rem / 16);
+}
+
+.size-26 {
+  font-size: calc(26rem / 16);
+  line-height: calc(30rem / 16);
+}
+.size-26 h1, .size-26 h2, .size-26 h3, .size-26 h4, .size-26 h5, .size-26 p, .size-26 i, .size-26 span, .size-26 li, .size-26 a, .size-26 blockquote, .size-26 p > a, .size-26 i > a, .size-26 span > a, .size-26 li > a, .size-26 blockquote > a, .size-26 ol > li, .size-26 ol > li > a, .size-26 ul > li, .size-26 ul > li > a, .size-26 ol, .size-26 ul {
+  font-size: calc(26rem / 16);
+  line-height: calc(30rem / 16);
+}
+
+.size-27 {
+  font-size: calc(27rem / 16);
+  line-height: calc(31rem / 16);
+}
+.size-27 h1, .size-27 h2, .size-27 h3, .size-27 h4, .size-27 h5, .size-27 p, .size-27 i, .size-27 span, .size-27 li, .size-27 a, .size-27 blockquote, .size-27 p > a, .size-27 i > a, .size-27 span > a, .size-27 li > a, .size-27 blockquote > a, .size-27 ol > li, .size-27 ol > li > a, .size-27 ul > li, .size-27 ul > li > a, .size-27 ol, .size-27 ul {
+  font-size: calc(27rem / 16);
+  line-height: calc(31rem / 16);
+}
+
+.size-28 {
+  font-size: calc(28rem / 16);
+  line-height: calc(32rem / 16);
+}
+.size-28 h1, .size-28 h2, .size-28 h3, .size-28 h4, .size-28 h5, .size-28 p, .size-28 i, .size-28 span, .size-28 li, .size-28 a, .size-28 blockquote, .size-28 p > a, .size-28 i > a, .size-28 span > a, .size-28 li > a, .size-28 blockquote > a, .size-28 ol > li, .size-28 ol > li > a, .size-28 ul > li, .size-28 ul > li > a, .size-28 ol, .size-28 ul {
+  font-size: calc(28rem / 16);
+  line-height: calc(32rem / 16);
+}
+
+.size-30 {
+  font-size: calc(30rem / 16);
+  line-height: calc(40rem / 16);
+}
+.size-30 h1, .size-30 h2, .size-30 h3, .size-30 h4, .size-30 h5, .size-30 p, .size-30 i, .size-30 span, .size-30 li, .size-30 a, .size-30 blockquote, .size-30 p > a, .size-30 i > a, .size-30 span > a, .size-30 li > a, .size-30 blockquote > a, .size-30 ol > li, .size-30 ol > li > a, .size-30 ul > li, .size-30 ul > li > a, .size-30 ol, .size-30 ul {
+  font-size: calc(30rem / 16);
+  line-height: calc(40rem / 16);
+}
+
+.size-32 {
+  font-size: calc(32rem / 16);
+  line-height: calc(37rem / 16);
+}
+.size-32 h1, .size-32 h2, .size-32 h3, .size-32 h4, .size-32 h5, .size-32 p, .size-32 i, .size-32 span, .size-32 li, .size-32 a, .size-32 blockquote, .size-32 p > a, .size-32 i > a, .size-32 span > a, .size-32 li > a, .size-32 blockquote > a, .size-32 ol > li, .size-32 ol > li > a, .size-32 ul > li, .size-32 ul > li > a, .size-32 ol, .size-32 ul {
+  font-size: calc(32rem / 16);
+  line-height: calc(37rem / 16);
+}
+
+.size-35 {
+  font-size: calc(35rem / 16);
+  line-height: calc(29rem / 16);
+}
+.size-35 h1, .size-35 h2, .size-35 h3, .size-35 h4, .size-35 h5, .size-35 p, .size-35 i, .size-35 span, .size-35 li, .size-35 a, .size-35 blockquote, .size-35 p > a, .size-35 i > a, .size-35 span > a, .size-35 li > a, .size-35 blockquote > a, .size-35 ol > li, .size-35 ol > li > a, .size-35 ul > li, .size-35 ul > li > a, .size-35 ol, .size-35 ul {
+  font-size: calc(35rem / 16);
+  line-height: calc(29rem / 16);
+}
+
+.size-38 {
+  font-size: calc(38rem / 16);
+  line-height: calc(44rem / 16);
+}
+.size-38 h1, .size-38 h2, .size-38 h3, .size-38 h4, .size-38 h5, .size-38 p, .size-38 i, .size-38 span, .size-38 li, .size-38 a, .size-38 blockquote, .size-38 p > a, .size-38 i > a, .size-38 span > a, .size-38 li > a, .size-38 blockquote > a, .size-38 ol > li, .size-38 ol > li > a, .size-38 ul > li, .size-38 ul > li > a, .size-38 ol, .size-38 ul {
+  font-size: calc(38rem / 16);
+  line-height: calc(44rem / 16);
+}
+
+.size-40 {
+  font-size: calc(40rem / 16);
+  line-height: calc(50rem / 16);
+}
+.size-40 h1, .size-40 h2, .size-40 h3, .size-40 h4, .size-40 h5, .size-40 p, .size-40 i, .size-40 span, .size-40 li, .size-40 a, .size-40 blockquote, .size-40 p > a, .size-40 i > a, .size-40 span > a, .size-40 li > a, .size-40 blockquote > a, .size-40 ol > li, .size-40 ol > li > a, .size-40 ul > li, .size-40 ul > li > a, .size-40 ol, .size-40 ul {
+  font-size: calc(40rem / 16);
+  line-height: calc(50rem / 16);
+}
+
+.size-46 {
+  font-size: calc(46rem / 16);
+  line-height: calc(53rem / 16);
+}
+.size-46 h1, .size-46 h2, .size-46 h3, .size-46 h4, .size-46 h5, .size-46 p, .size-46 i, .size-46 span, .size-46 li, .size-46 a, .size-46 blockquote, .size-46 p > a, .size-46 i > a, .size-46 span > a, .size-46 li > a, .size-46 blockquote > a, .size-46 ol > li, .size-46 ol > li > a, .size-46 ul > li, .size-46 ul > li > a, .size-46 ol, .size-46 ul {
+  font-size: calc(46rem / 16);
+  line-height: calc(53rem / 16);
+}
+
+.size-50 {
+  font-size: calc(50rem / 16);
+  line-height: calc(55rem / 16);
+}
+.size-50 h1, .size-50 h2, .size-50 h3, .size-50 h4, .size-50 h5, .size-50 p, .size-50 i, .size-50 span, .size-50 li, .size-50 a, .size-50 blockquote, .size-50 p > a, .size-50 i > a, .size-50 span > a, .size-50 li > a, .size-50 blockquote > a, .size-50 ol > li, .size-50 ol > li > a, .size-50 ul > li, .size-50 ul > li > a, .size-50 ol, .size-50 ul {
+  font-size: calc(50rem / 16);
+  line-height: calc(55rem / 16);
+}
+
+.size-60 {
+  font-size: calc(60rem / 16);
+  line-height: calc(69rem / 16);
+}
+.size-60 h1, .size-60 h2, .size-60 h3, .size-60 h4, .size-60 h5, .size-60 p, .size-60 i, .size-60 span, .size-60 li, .size-60 a, .size-60 blockquote, .size-60 p > a, .size-60 i > a, .size-60 span > a, .size-60 li > a, .size-60 blockquote > a, .size-60 ol > li, .size-60 ol > li > a, .size-60 ul > li, .size-60 ul > li > a, .size-60 ol, .size-60 ul {
+  font-size: calc(60rem / 16);
+  line-height: calc(69rem / 16);
+}
+
+.size-64 {
+  font-size: calc(64rem / 16);
+  line-height: calc(74rem / 16);
+}
+.size-64 h1, .size-64 h2, .size-64 h3, .size-64 h4, .size-64 h5, .size-64 p, .size-64 i, .size-64 span, .size-64 li, .size-64 a, .size-64 blockquote, .size-64 p > a, .size-64 i > a, .size-64 span > a, .size-64 li > a, .size-64 blockquote > a, .size-64 ol > li, .size-64 ol > li > a, .size-64 ul > li, .size-64 ul > li > a, .size-64 ol, .size-64 ul {
+  font-size: calc(64rem / 16);
+  line-height: calc(74rem / 16);
+}
+
+.size-74 {
+  font-size: calc(74rem / 16);
+  line-height: calc(85rem / 16);
+}
+.size-74 h1, .size-74 h2, .size-74 h3, .size-74 h4, .size-74 h5, .size-74 p, .size-74 i, .size-74 span, .size-74 li, .size-74 a, .size-74 blockquote, .size-74 p > a, .size-74 i > a, .size-74 span > a, .size-74 li > a, .size-74 blockquote > a, .size-74 ol > li, .size-74 ol > li > a, .size-74 ul > li, .size-74 ul > li > a, .size-74 ol, .size-74 ul {
+  font-size: calc(74rem / 16);
+  line-height: calc(85rem / 16);
+}
+
+.size-90 {
+  font-size: calc(90rem / 16);
+  line-height: calc(103rem / 16);
+}
+.size-90 h1, .size-90 h2, .size-90 h3, .size-90 h4, .size-90 h5, .size-90 p, .size-90 i, .size-90 span, .size-90 li, .size-90 a, .size-90 blockquote, .size-90 p > a, .size-90 i > a, .size-90 span > a, .size-90 li > a, .size-90 blockquote > a, .size-90 ol > li, .size-90 ol > li > a, .size-90 ul > li, .size-90 ul > li > a, .size-90 ol, .size-90 ul {
+  font-size: calc(90rem / 16);
+  line-height: calc(103rem / 16);
+}
+
+@media (max-width: 1199px) {
+  .size-74 {
+    font-size: calc(60rem / 16);
+    line-height: calc(70rem / 16);
+  }
+  .size-74 h1, .size-74 h2, .size-74 h3, .size-74 h4, .size-74 h5, .size-74 p, .size-74 i, .size-74 span, .size-74 li, .size-74 a, .size-74 blockquote, .size-74 p > a, .size-74 i > a, .size-74 span > a, .size-74 li > a, .size-74 blockquote > a, .size-74 ol > li, .size-74 ol > li > a, .size-74 ul > li, .size-74 ul > li > a, .size-74 ol, .size-74 ul {
+    font-size: calc(60rem / 16);
+    line-height: calc(70rem / 16);
+  }
+  .size-40 {
+    font-size: calc(36rem / 16);
+    line-height: calc(40rem / 16);
+  }
+  .size-40 h1, .size-40 h2, .size-40 h3, .size-40 h4, .size-40 h5, .size-40 p, .size-40 i, .size-40 span, .size-40 li, .size-40 a, .size-40 blockquote, .size-40 p > a, .size-40 i > a, .size-40 span > a, .size-40 li > a, .size-40 blockquote > a, .size-40 ol > li, .size-40 ol > li > a, .size-40 ul > li, .size-40 ul > li > a, .size-40 ol, .size-40 ul {
+    font-size: calc(36rem / 16);
+    line-height: calc(40rem / 16);
+  }
+  .size-27 {
+    font-size: calc(24rem / 16);
+    line-height: calc(34rem / 16);
+  }
+  .size-27 h1, .size-27 h2, .size-27 h3, .size-27 h4, .size-27 h5, .size-27 p, .size-27 i, .size-27 span, .size-27 li, .size-27 a, .size-27 blockquote, .size-27 p > a, .size-27 i > a, .size-27 span > a, .size-27 li > a, .size-27 blockquote > a, .size-27 ol > li, .size-27 ol > li > a, .size-27 ul > li, .size-27 ul > li > a, .size-27 ol, .size-27 ul {
+    font-size: calc(24rem / 16);
+    line-height: calc(34rem / 16);
+  }
+  .size-15 {
+    font-size: calc(13rem / 16);
+    line-height: calc(18rem / 16);
+  }
+  .size-15 h1, .size-15 h2, .size-15 h3, .size-15 h4, .size-15 h5, .size-15 p, .size-15 i, .size-15 span, .size-15 li, .size-15 a, .size-15 blockquote, .size-15 p > a, .size-15 i > a, .size-15 span > a, .size-15 li > a, .size-15 blockquote > a, .size-15 ol > li, .size-15 ol > li > a, .size-15 ul > li, .size-15 ul > li > a, .size-15 ol, .size-15 ul {
+    font-size: calc(13rem / 16);
+    line-height: calc(18rem / 16);
+  }
+  .size-60 {
+    font-size: calc(50rem / 16);
+    line-height: calc(60rem / 16);
+  }
+  .size-60 h1, .size-60 h2, .size-60 h3, .size-60 h4, .size-60 h5, .size-60 p, .size-60 i, .size-60 span, .size-60 li, .size-60 a, .size-60 blockquote, .size-60 p > a, .size-60 i > a, .size-60 span > a, .size-60 li > a, .size-60 blockquote > a, .size-60 ol > li, .size-60 ol > li > a, .size-60 ul > li, .size-60 ul > li > a, .size-60 ol, .size-60 ul {
+    font-size: calc(50rem / 16);
+    line-height: calc(60rem / 16);
+  }
+  .size-28 {
+    font-size: calc(24rem / 16);
+    line-height: calc(32rem / 16);
+  }
+  .size-28 h1, .size-28 h2, .size-28 h3, .size-28 h4, .size-28 h5, .size-28 p, .size-28 i, .size-28 span, .size-28 li, .size-28 a, .size-28 blockquote, .size-28 p > a, .size-28 i > a, .size-28 span > a, .size-28 li > a, .size-28 blockquote > a, .size-28 ol > li, .size-28 ol > li > a, .size-28 ul > li, .size-28 ul > li > a, .size-28 ol, .size-28 ul {
+    font-size: calc(24rem / 16);
+    line-height: calc(32rem / 16);
+  }
+  .size-26 {
+    font-size: calc(24rem / 16);
+    line-height: calc(30rem / 16);
+  }
+  .size-26 h1, .size-26 h2, .size-26 h3, .size-26 h4, .size-26 h5, .size-26 p, .size-26 i, .size-26 span, .size-26 li, .size-26 a, .size-26 blockquote, .size-26 p > a, .size-26 i > a, .size-26 span > a, .size-26 li > a, .size-26 blockquote > a, .size-26 ol > li, .size-26 ol > li > a, .size-26 ul > li, .size-26 ul > li > a, .size-26 ol, .size-26 ul {
+    font-size: calc(24rem / 16);
+    line-height: calc(30rem / 16);
+  }
+}
+@media (max-width: 1023px) {
+  .size-110 {
+    font-size: calc(63rem / 16);
+    line-height: calc(74rem / 16);
+  }
+  .size-110 h1, .size-110 h2, .size-110 h3, .size-110 h4, .size-110 h5, .size-110 p, .size-110 i, .size-110 span, .size-110 li, .size-110 a, .size-110 blockquote, .size-110 p > a, .size-110 i > a, .size-110 span > a, .size-110 li > a, .size-110 blockquote > a, .size-110 ol > li, .size-110 ol > li > a, .size-110 ul > li, .size-110 ul > li > a, .size-110 ol, .size-110 ul {
+    font-size: calc(63rem / 16);
+    line-height: calc(74rem / 16);
+  }
+  .size-90 {
+    font-size: calc(54rem / 16);
+    line-height: calc(65rem / 16);
+  }
+  .size-90 h1, .size-90 h2, .size-90 h3, .size-90 h4, .size-90 h5, .size-90 p, .size-90 i, .size-90 span, .size-90 li, .size-90 a, .size-90 blockquote, .size-90 p > a, .size-90 i > a, .size-90 span > a, .size-90 li > a, .size-90 blockquote > a, .size-90 ol > li, .size-90 ol > li > a, .size-90 ul > li, .size-90 ul > li > a, .size-90 ol, .size-90 ul {
+    font-size: calc(54rem / 16);
+    line-height: calc(65rem / 16);
+  }
+  .size-74 {
+    font-size: calc(55rem / 16);
+    line-height: calc(63rem / 16);
+  }
+  .size-74 h1, .size-74 h2, .size-74 h3, .size-74 h4, .size-74 h5, .size-74 p, .size-74 i, .size-74 span, .size-74 li, .size-74 a, .size-74 blockquote, .size-74 p > a, .size-74 i > a, .size-74 span > a, .size-74 li > a, .size-74 blockquote > a, .size-74 ol > li, .size-74 ol > li > a, .size-74 ul > li, .size-74 ul > li > a, .size-74 ol, .size-74 ul {
+    font-size: calc(55rem / 16);
+    line-height: calc(63rem / 16);
+  }
+  .size-64 {
+    font-size: calc(54rem / 16);
+    line-height: calc(64rem / 16);
+  }
+  .size-64 h1, .size-64 h2, .size-64 h3, .size-64 h4, .size-64 h5, .size-64 p, .size-64 i, .size-64 span, .size-64 li, .size-64 a, .size-64 blockquote, .size-64 p > a, .size-64 i > a, .size-64 span > a, .size-64 li > a, .size-64 blockquote > a, .size-64 ol > li, .size-64 ol > li > a, .size-64 ul > li, .size-64 ul > li > a, .size-64 ol, .size-64 ul {
+    font-size: calc(54rem / 16);
+    line-height: calc(64rem / 16);
+  }
+  .size-60 {
+    font-size: calc(44rem / 16);
+    line-height: calc(50rem / 16);
+  }
+  .size-60 h1, .size-60 h2, .size-60 h3, .size-60 h4, .size-60 h5, .size-60 p, .size-60 i, .size-60 span, .size-60 li, .size-60 a, .size-60 blockquote, .size-60 p > a, .size-60 i > a, .size-60 span > a, .size-60 li > a, .size-60 blockquote > a, .size-60 ol > li, .size-60 ol > li > a, .size-60 ul > li, .size-60 ul > li > a, .size-60 ol, .size-60 ul {
+    font-size: calc(44rem / 16);
+    line-height: calc(50rem / 16);
+  }
+  .size-55 {
+    font-size: calc(40rem / 16);
+    line-height: calc(47rem / 16);
+  }
+  .size-55 h1, .size-55 h2, .size-55 h3, .size-55 h4, .size-55 h5, .size-55 p, .size-55 i, .size-55 span, .size-55 li, .size-55 a, .size-55 blockquote, .size-55 p > a, .size-55 i > a, .size-55 span > a, .size-55 li > a, .size-55 blockquote > a, .size-55 ol > li, .size-55 ol > li > a, .size-55 ul > li, .size-55 ul > li > a, .size-55 ol, .size-55 ul {
+    font-size: calc(40rem / 16);
+    line-height: calc(47rem / 16);
+  }
+  .size-50 {
+    font-size: calc(34rem / 16);
+    line-height: calc(40rem / 16);
+  }
+  .size-50 h1, .size-50 h2, .size-50 h3, .size-50 h4, .size-50 h5, .size-50 p, .size-50 i, .size-50 span, .size-50 li, .size-50 a, .size-50 blockquote, .size-50 p > a, .size-50 i > a, .size-50 span > a, .size-50 li > a, .size-50 blockquote > a, .size-50 ol > li, .size-50 ol > li > a, .size-50 ul > li, .size-50 ul > li > a, .size-50 ol, .size-50 ul {
+    font-size: calc(34rem / 16);
+    line-height: calc(40rem / 16);
+  }
+  .size-40 {
+    font-size: calc(30rem / 16);
+    line-height: calc(36rem / 16);
+  }
+  .size-40 h1, .size-40 h2, .size-40 h3, .size-40 h4, .size-40 h5, .size-40 p, .size-40 i, .size-40 span, .size-40 li, .size-40 a, .size-40 blockquote, .size-40 p > a, .size-40 i > a, .size-40 span > a, .size-40 li > a, .size-40 blockquote > a, .size-40 ol > li, .size-40 ol > li > a, .size-40 ul > li, .size-40 ul > li > a, .size-40 ol, .size-40 ul {
+    font-size: calc(30rem / 16);
+    line-height: calc(36rem / 16);
+  }
+  .size-30 {
+    font-size: calc(20rem / 16);
+    line-height: calc(24rem / 16);
+  }
+  .size-30 h1, .size-30 h2, .size-30 h3, .size-30 h4, .size-30 h5, .size-30 p, .size-30 i, .size-30 span, .size-30 li, .size-30 a, .size-30 blockquote, .size-30 p > a, .size-30 i > a, .size-30 span > a, .size-30 li > a, .size-30 blockquote > a, .size-30 ol > li, .size-30 ol > li > a, .size-30 ul > li, .size-30 ul > li > a, .size-30 ol, .size-30 ul {
+    font-size: calc(20rem / 16);
+    line-height: calc(24rem / 16);
+  }
+  .size-28 {
+    font-size: calc(24rem / 16);
+    line-height: calc(32rem / 16);
+  }
+  .size-28 h1, .size-28 h2, .size-28 h3, .size-28 h4, .size-28 h5, .size-28 p, .size-28 i, .size-28 span, .size-28 li, .size-28 a, .size-28 blockquote, .size-28 p > a, .size-28 i > a, .size-28 span > a, .size-28 li > a, .size-28 blockquote > a, .size-28 ol > li, .size-28 ol > li > a, .size-28 ul > li, .size-28 ul > li > a, .size-28 ol, .size-28 ul {
+    font-size: calc(24rem / 16);
+    line-height: calc(32rem / 16);
+  }
+  .size-24 {
+    font-size: calc(16rem / 16);
+    line-height: calc(24rem / 16);
+  }
+  .size-24 h1, .size-24 h2, .size-24 h3, .size-24 h4, .size-24 h5, .size-24 p, .size-24 i, .size-24 span, .size-24 li, .size-24 a, .size-24 blockquote, .size-24 p > a, .size-24 i > a, .size-24 span > a, .size-24 li > a, .size-24 blockquote > a, .size-24 ol > li, .size-24 ol > li > a, .size-24 ul > li, .size-24 ul > li > a, .size-24 ol, .size-24 ul {
+    font-size: calc(16rem / 16);
+    line-height: calc(24rem / 16);
+  }
+  .size-22 {
+    font-size: calc(16rem / 16);
+    line-height: calc(24rem / 16);
+  }
+  .size-22 h1, .size-22 h2, .size-22 h3, .size-22 h4, .size-22 h5, .size-22 p, .size-22 i, .size-22 span, .size-22 li, .size-22 a, .size-22 blockquote, .size-22 p > a, .size-22 i > a, .size-22 span > a, .size-22 li > a, .size-22 blockquote > a, .size-22 ol > li, .size-22 ol > li > a, .size-22 ul > li, .size-22 ul > li > a, .size-22 ol, .size-22 ul {
+    font-size: calc(16rem / 16);
+    line-height: calc(24rem / 16);
+  }
+}
+@media (max-width: 767px) {
+  .size-74 {
+    font-size: calc(30rem / 16);
+    line-height: calc(34rem / 16);
+  }
+  .size-74 h1, .size-74 h2, .size-74 h3, .size-74 h4, .size-74 h5, .size-74 p, .size-74 i, .size-74 span, .size-74 li, .size-74 a, .size-74 blockquote, .size-74 p > a, .size-74 i > a, .size-74 span > a, .size-74 li > a, .size-74 blockquote > a, .size-74 ol > li, .size-74 ol > li > a, .size-74 ul > li, .size-74 ul > li > a, .size-74 ol, .size-74 ul {
+    font-size: calc(30rem / 16);
+    line-height: calc(34rem / 16);
+  }
+  .size-64 {
+    font-size: calc(30rem / 16);
+    line-height: calc(34rem / 16);
+  }
+  .size-64 h1, .size-64 h2, .size-64 h3, .size-64 h4, .size-64 h5, .size-64 p, .size-64 i, .size-64 span, .size-64 li, .size-64 a, .size-64 blockquote, .size-64 p > a, .size-64 i > a, .size-64 span > a, .size-64 li > a, .size-64 blockquote > a, .size-64 ol > li, .size-64 ol > li > a, .size-64 ul > li, .size-64 ul > li > a, .size-64 ol, .size-64 ul {
+    font-size: calc(30rem / 16);
+    line-height: calc(34rem / 16);
+  }
+  .size-60 {
+    font-size: calc(34rem / 16);
+    line-height: calc(40rem / 16);
+  }
+  .size-60 h1, .size-60 h2, .size-60 h3, .size-60 h4, .size-60 h5, .size-60 p, .size-60 i, .size-60 span, .size-60 li, .size-60 a, .size-60 blockquote, .size-60 p > a, .size-60 i > a, .size-60 span > a, .size-60 li > a, .size-60 blockquote > a, .size-60 ol > li, .size-60 ol > li > a, .size-60 ul > li, .size-60 ul > li > a, .size-60 ol, .size-60 ul {
+    font-size: calc(34rem / 16);
+    line-height: calc(40rem / 16);
+  }
+  .size-28 {
+    font-size: calc(20rem / 16);
+    line-height: calc(30rem / 16);
+  }
+  .size-28 h1, .size-28 h2, .size-28 h3, .size-28 h4, .size-28 h5, .size-28 p, .size-28 i, .size-28 span, .size-28 li, .size-28 a, .size-28 blockquote, .size-28 p > a, .size-28 i > a, .size-28 span > a, .size-28 li > a, .size-28 blockquote > a, .size-28 ol > li, .size-28 ol > li > a, .size-28 ul > li, .size-28 ul > li > a, .size-28 ol, .size-28 ul {
+    font-size: calc(20rem / 16);
+    line-height: calc(30rem / 16);
+  }
+  .size-26 {
+    font-size: calc(18rem / 16);
+    line-height: calc(26rem / 16);
+  }
+  .size-26 h1, .size-26 h2, .size-26 h3, .size-26 h4, .size-26 h5, .size-26 p, .size-26 i, .size-26 span, .size-26 li, .size-26 a, .size-26 blockquote, .size-26 p > a, .size-26 i > a, .size-26 span > a, .size-26 li > a, .size-26 blockquote > a, .size-26 ol > li, .size-26 ol > li > a, .size-26 ul > li, .size-26 ul > li > a, .size-26 ol, .size-26 ul {
+    font-size: calc(18rem / 16);
+    line-height: calc(26rem / 16);
+  }
+  .size-24 {
+    font-size: calc(14rem / 16);
+    line-height: calc(24rem / 16);
+  }
+  .size-24 h1, .size-24 h2, .size-24 h3, .size-24 h4, .size-24 h5, .size-24 p, .size-24 i, .size-24 span, .size-24 li, .size-24 a, .size-24 blockquote, .size-24 p > a, .size-24 i > a, .size-24 span > a, .size-24 li > a, .size-24 blockquote > a, .size-24 ol > li, .size-24 ol > li > a, .size-24 ul > li, .size-24 ul > li > a, .size-24 ol, .size-24 ul {
+    font-size: calc(14rem / 16);
+    line-height: calc(24rem / 16);
+  }
+  .size-22 {
+    font-size: calc(14rem / 16);
+    line-height: calc(24rem / 16);
+  }
+  .size-22 h1, .size-22 h2, .size-22 h3, .size-22 h4, .size-22 h5, .size-22 p, .size-22 i, .size-22 span, .size-22 li, .size-22 a, .size-22 blockquote, .size-22 p > a, .size-22 i > a, .size-22 span > a, .size-22 li > a, .size-22 blockquote > a, .size-22 ol > li, .size-22 ol > li > a, .size-22 ul > li, .size-22 ul > li > a, .size-22 ol, .size-22 ul {
+    font-size: calc(14rem / 16);
+    line-height: calc(24rem / 16);
+  }
+  .size-27 {
+    font-size: calc(16rem / 16);
+    line-height: calc(20rem / 16);
+  }
+  .size-27 h1, .size-27 h2, .size-27 h3, .size-27 h4, .size-27 h5, .size-27 p, .size-27 i, .size-27 span, .size-27 li, .size-27 a, .size-27 blockquote, .size-27 p > a, .size-27 i > a, .size-27 span > a, .size-27 li > a, .size-27 blockquote > a, .size-27 ol > li, .size-27 ol > li > a, .size-27 ul > li, .size-27 ul > li > a, .size-27 ol, .size-27 ul {
+    font-size: calc(16rem / 16);
+    line-height: calc(20rem / 16);
+  }
+  .size-17 {
+    font-size: calc(14rem / 16);
+    line-height: calc(24rem / 16);
+  }
+  .size-17 h1, .size-17 h2, .size-17 h3, .size-17 h4, .size-17 h5, .size-17 p, .size-17 i, .size-17 span, .size-17 li, .size-17 a, .size-17 blockquote, .size-17 p > a, .size-17 i > a, .size-17 span > a, .size-17 li > a, .size-17 blockquote > a, .size-17 ol > li, .size-17 ol > li > a, .size-17 ul > li, .size-17 ul > li > a, .size-17 ol, .size-17 ul {
+    font-size: calc(14rem / 16);
+    line-height: calc(24rem / 16);
+  }
+  .size-16 {
+    font-size: calc(14rem / 16);
+    line-height: calc(24rem / 16);
+  }
+  .size-16 h1, .size-16 h2, .size-16 h3, .size-16 h4, .size-16 h5, .size-16 p, .size-16 i, .size-16 span, .size-16 li, .size-16 a, .size-16 blockquote, .size-16 p > a, .size-16 i > a, .size-16 span > a, .size-16 li > a, .size-16 blockquote > a, .size-16 ol > li, .size-16 ol > li > a, .size-16 ul > li, .size-16 ul > li > a, .size-16 ol, .size-16 ul {
+    font-size: calc(14rem / 16);
+    line-height: calc(24rem / 16);
+  }
+}
+@media (max-width: 576px) {
+  .size-90 {
+    font-size: calc(36rem / 16);
+    line-height: calc(40rem / 16);
+  }
+  .size-90 h1, .size-90 h2, .size-90 h3, .size-90 h4, .size-90 h5, .size-90 p, .size-90 i, .size-90 span, .size-90 li, .size-90 a, .size-90 blockquote, .size-90 p > a, .size-90 i > a, .size-90 span > a, .size-90 li > a, .size-90 blockquote > a, .size-90 ol > li, .size-90 ol > li > a, .size-90 ul > li, .size-90 ul > li > a, .size-90 ol, .size-90 ul {
+    font-size: calc(36rem / 16);
+    line-height: calc(40rem / 16);
+  }
+  .size-28 {
+    font-size: calc(16rem / 16);
+    line-height: calc(24rem / 16);
+  }
+  .size-28 h1, .size-28 h2, .size-28 h3, .size-28 h4, .size-28 h5, .size-28 p, .size-28 i, .size-28 span, .size-28 li, .size-28 a, .size-28 blockquote, .size-28 p > a, .size-28 i > a, .size-28 span > a, .size-28 li > a, .size-28 blockquote > a, .size-28 ol > li, .size-28 ol > li > a, .size-28 ul > li, .size-28 ul > li > a, .size-28 ol, .size-28 ul {
+    font-size: calc(16rem / 16);
+    line-height: calc(24rem / 16);
+  }
+  .size-18 {
+    font-size: calc(14rem / 16);
+    line-height: calc(24rem / 16);
+  }
+  .size-18 h1, .size-18 h2, .size-18 h3, .size-18 h4, .size-18 h5, .size-18 p, .size-18 i, .size-18 span, .size-18 li, .size-18 a, .size-18 blockquote, .size-18 p > a, .size-18 i > a, .size-18 span > a, .size-18 li > a, .size-18 blockquote > a, .size-18 ol > li, .size-18 ol > li > a, .size-18 ul > li, .size-18 ul > li > a, .size-18 ol, .size-18 ul {
+    font-size: calc(14rem / 16);
+    line-height: calc(24rem / 16);
+  }
+}
+@media (max-width: 380px) {
+  .size-55 {
+    font-size: calc(35rem / 16);
+    line-height: calc(41rem / 16);
+  }
+  .size-55 h1, .size-55 h2, .size-55 h3, .size-55 h4, .size-55 h5, .size-55 p, .size-55 i, .size-55 span, .size-55 li, .size-55 a, .size-55 blockquote, .size-55 p > a, .size-55 i > a, .size-55 span > a, .size-55 li > a, .size-55 blockquote > a, .size-55 ol > li, .size-55 ol > li > a, .size-55 ul > li, .size-55 ul > li > a, .size-55 ol, .size-55 ul {
+    font-size: calc(35rem / 16);
+    line-height: calc(41rem / 16);
+  }
+}
+select {
+  outline: none !important;
+}
+select:focus-visible {
+  outline: none !important;
+}
+select:active {
+  outline: none !important;
+}
+select:focus {
+  outline: none !important;
+}
+
+.input:-webkit-autofill,
+.input:-webkit-autofill:hover,
+.input:-webkit-autofill:focus,
+.textarea:-webkit-autofill,
+.textarea:-webkit-autofill:hover,
+.textarea:-webkit-autofill:focus {
+  -webkit-text-fill-color: inherit;
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  background: #fff;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.input[type=text],
+.input[type=email],
+.input[type=url],
+.input[type=password],
+.input[type=search],
+.input[type=number],
+.input[type=tel],
+.input[type=range],
+.input[type=date],
+.input[type=month],
+.input[type=week],
+.input[type=time],
+.input[type=datetime],
+.input[type=datetime-local],
+.input[type=color],
+.textarea {
+  padding: 2px 12px;
+  border-radius: 0;
+}
+
+.input[type=text]:focus,
+.input[type=email]:focus,
+.input[type=url]:focus,
+.input[type=password]:focus,
+.input[type=search]:focus,
+.input[type=number]:focus,
+.input[type=tel]:focus,
+.input[type=range]:focus,
+.input[type=date]:focus,
+.input[type=month]:focus,
+.input[type=week]:focus,
+.input[type=time]:focus,
+.input[type=datetime]:focus,
+.input[type=datetime-local]:focus,
+.input[type=color]:focus,
+.textarea:focus {
+  outline: none;
+}
+
+.input[type=search]::-webkit-search-decoration,
+.input[type=search]::-webkit-search-cancel-button,
+.input[type=search]::-webkit-search-results-button,
+.input[type=search]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+
+.input,
+.textarea {
+  padding: 11px 10px 14px 17px;
+  border: 0;
+}
+
+.input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.input:focus:-moz-placeholder {
+  color: transparent;
+}
+
+.input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+.input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+/* Remove Number From Inputs */
+.input[type=number]::-webkit-inner-spin-button,
+.input[type=number]::-webkit-outer-spin-button,
+.input[type=number] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  appearance: none;
+  margin: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important;
+}
+
+input {
+  box-shadow: none;
+  outline: none;
+  font-variant-numeric: lining-nums;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input:active, input:hover, input:focus {
+  outline: none;
+  outline-offset: 0;
+}
+
+input {
+  outline: none !important;
+  webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: none;
+  -webkit-appearance: none;
+}
+
+.filter__tabs_mobile, .filter__tabs_mobile label, .tab-name, .tab-name input,
+.ss-main .ss-multi-selected .ss-values .ss-disabled, .ss-main .ss-multi-selected, .ss-main .ss-single-selected {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-focus-ring-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+input:focus {
+  background: #F0F0F0;
+}
+
+.btn {
+  border: 0;
+  border-radius: 30px;
+  background: var(--button, linear-gradient(90deg, #903BE9 0%, #406EF7 100%));
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s;
+}
+.btn:hover {
+  background: linear-gradient(90deg, #6014AF 0%, #1342CE 100%);
+}
+.btn span {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-l {
+  border-radius: 30px;
+  border: 1px solid var(--button, #903BE9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  height: 40px;
+}
+.btn-l span {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+.btn-l:hover {
+  cursor: pointer;
+  border: 1px solid var(--button, #903BE9);
+  background: var(--button, linear-gradient(90deg, #903BE9 0%, #406EF7 100%));
+}
+
+@media (max-width: 4500.98px) and (min-width: 1023.98px) {
+  .btn:hover {
+    color: #191b1d;
+  }
+}
+.main-form textarea {
+  padding: 16px 24px;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #091033;
+  min-height: 110px;
+  min-width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #2D5FA4;
+  border-radius: 10px;
+  box-sizing: border-box;
+  max-height: 80px;
+  outline: none;
+}
+
+.main-form textarea:active, .main-form textarea:focus {
+  outline: none;
+}
+
+.main-form.home-form input {
+  background: inherit;
+  border: 0;
+  border-bottom: 1px solid #A196F3;
+  height: 24px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  width: 100%;
+  padding: 4px 5px 8px 24px;
+}
+
+.form__row {
+  margin-bottom: 24px;
+}
+
+.is-invalid {
+  border-color: #dc3545;
+  padding-right: calc(1.5em + 0.75rem);
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+.main-form input::-moz-placeholder {
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.main-form input::placeholder {
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.main-form textarea {
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #084470;
+  background: #EAF3F9;
+  border-radius: 15px;
+  max-height: 103px;
+  border: 0;
+}
+.main-form textarea::-moz-placeholder {
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #084470;
+}
+.main-form textarea::placeholder {
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #084470;
+}
+
+.just-validate-error-label {
+  position: absolute;
+  bottom: -18px;
+  left: 26px;
+  color: #7339F5 !important;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.form-control {
+  position: relative;
+}
+.form-control svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+}
+
+.main-form.home-form .form-control svg {
+  top: 6px;
+}
+
+.form-control textarea:focus ~ .form-label, .form-control textarea.error ~ .form-label {
+  top: -10px;
+  left: 8px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.375em;
+  color: #8E8E8E;
+}
+
+.form-control input.fix ~ .form-label {
+  top: -10px;
+  left: 8px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.375em;
+  color: #8E8E8E;
+}
+
+.form-control .just-validate-error-field ~ .form-label {
+  top: -10px;
+  left: 8px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.375em;
+  color: #8E8E8E;
+}
+
+.form-control .form-label {
+  position: absolute;
+  width: auto;
+  left: 19px;
+  top: 11px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  pointer-events: none;
+  transform-origin: 0px 0px;
+  font-size: 16px;
+  line-height: 1.375em;
+  padding: 0px;
+  overflow: hidden;
+  transition: all 0.5s ease 0s;
+  font-weight: 400;
+  color: #8E8E8E;
+}
+
+.form em.error {
+  font-size: 12px;
+  line-height: 18px;
+  position: absolute;
+  left: 26px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 0;
+  top: 48px;
+  padding-left: 0;
+  color: red;
+  font-style: normal;
+}
+
+.form__row {
+  position: relative;
+}
+
+@media (max-width: 1023px) {
+  .main-form textarea {
+    min-height: 75px;
+  }
+}
+@media (max-width: 767px) {
+  .form em.error {
+    top: 38px;
+    font-size: 11px;
+  }
+}
+@media (max-width: 480.98px) {
+  .form-control input.fix ~ .form-label, .form-control input:focus ~ .form-label, .form-control input.error ~ .form-label, .form-control textarea.valid ~ .form-label {
+    font-size: 12px;
+  }
+  .main-form textarea {
+    font-size: 16px;
+  }
+  .form-control textarea:focus ~ .form-label, .form-control textarea.error ~ .form-label {
+    font-size: 12px;
+  }
+  .just-validate-error-label {
+    position: absolute;
+    bottom: -19px;
+    font-size: 9px;
+  }
+}
+.header__language {
+  width: 55px;
+  margin-right: 68px;
+}
+@media (max-width: 1199.98px) {
+  .header__language {
+    margin-right: 30px;
+  }
+}
+
+.header__currency-block {
+  margin-top: 2px;
+  margin-right: 48px;
+}
+
+.language-dropdown {
+  position: relative;
+}
+
+.language-dropdown__button {
+  padding: 0;
+  background: inherit;
+  border: 0;
+  list-style: none;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  transition: 0.5s;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 55px;
+  text-align: left;
+}
+
+.language-dropdown svg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.language-dropdown__list {
+  border-radius: -27px;
+  position: absolute;
+  margin-left: -29px;
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s linear;
+  margin-top: 12px;
+  padding: 22px 29px;
+  background: rgb(13, 15, 36);
+  width: 91px;
+  height: auto;
+}
+
+.language-dropdown.show svg {
+  transform: rotate(180deg);
+  top: -3px;
+}
+
+.language-dropdown__item {
+  display: block;
+  padding: 0;
+  width: 100%;
+  text-align: left;
+  background: inherit;
+  border: 0;
+  transition: all 0.5s;
+  margin-bottom: 12px;
+}
+.language-dropdown__item:last-child {
+  margin-bottom: 0;
+}
+
+.language-dropdown__list .active div, .language-dropdown__list .active a {
+  color: #B87CFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.language-dropdown__list div:hover {
+  cursor: pointer;
+}
+
+.language-dropdown__list.show:before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-right-width: 10px;
+  border-left-width: 10px;
+  border-bottom: 10px solid rgb(13, 15, 36);
+}
+
+.language-dropdown__item a, .language-dropdown__item div {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: block;
+}
+
+.language-dropdown__list.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  z-index: 2;
+}
+
+.language-dropdown.show .button.currency-dropdown__button {
+  color: #000;
+  font-weight: 700;
+}
+
+.language-dropdown .language-dropdown__button:hover {
+  cursor: pointer;
+}
+
+.header__mobile-logo {
+  position: relative;
+}
+
+.mobile-menu__content {
+  display: none;
+}
+@media (max-width: 1023.98px) {
+  .mobile-menu__content {
+    display: flex;
+    align-items: center;
+  }
+}
+.mobile-menu__content .mobile-menu__phone {
+  width: 28px;
+  margin-right: 46px;
+}
+
+@media (max-width: 1023.98px) {
+  .top-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.header {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+  width: 100%;
+  max-width: 1920px;
+}
+.header__mobile-wrapper {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1023.98px) {
+  .header__mobile-wrapper {
+    display: block;
+    height: auto;
+    position: relative;
+    min-height: 100vh;
+    background-color: #0D0F24;
+    transition: 0.5s;
+  }
+}
+.header__logo {
+  width: 85px;
+  height: 85px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__logo a {
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+@media (max-width: 1023.98px) {
+  .header__logo a {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .header__logo {
+    width: 56px;
+    height: 56px;
+  }
+}
+.header__wrapper {
+  max-width: 1140px;
+  z-index: 4;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1023.98px) {
+  .header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+  }
+}
+.header__phone {
+  margin-right: 47px;
+}
+.header__phone a {
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  color: #0b1f2f;
+}
+.header__email a {
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  color: #0b1f2f;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+  padding: 4px 0 13px;
+  align-items: center;
+  height: 54px;
+}
+.header__popup {
+  width: 172px;
+  height: 28px;
+  background: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  margin: 6px -12px 0 48px;
+}
+.header__bottom {
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  padding: 5px 0 5px;
+}
+.header__top-left {
+  display: flex;
+  padding-left: 218px;
+  align-items: center;
+}
+.header__mobile-logo {
+  margin-left: 8px;
+}
+.header__socials {
+  display: flex;
+  align-items: center;
+  margin-right: 68px;
+}
+@media (max-width: 1199.98px) {
+  .header__socials {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .header__socials {
+    padding-bottom: 150px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .header__mobile-block {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background-color: #0D0F24;
+    text-align: center;
+    top: 0;
+    height: 100vh;
+    transition: 0.5s;
+    transform: translateY(-150%);
+  }
+}
+.header__social-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+.header__social-icon:last-child {
+  margin-right: 0;
+}
+.header__social-icon a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.header__social-icon a .svg {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+.header__social-icon a .svg path {
+  transition: 0.5s;
+}
+
+.menu {
+  padding: 0;
+  position: relative;
+  display: flex;
+  margin: 0 45px 0 91px;
+}
+@media (max-width: 1199.98px) {
+  .menu {
+    margin: 0 40px 0 40px;
+  }
+}
+.menu__item {
+  position: relative;
+  list-style: none;
+  padding: 0 22px;
+}
+.menu__link {
+  display: block;
+  transition: 0.5s;
+  font-size: 16px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 33px 0;
+  color: #fff;
+}
+.menu__link:hover {
+  cursor: pointer;
+}
+
+.header-popup {
+  width: 182px;
+  height: 40px;
+}
+
+@media (max-width: 4500.98px) and (min-width: 1199.98px) {
+  .no-scroll-popup .header__wrapper {
+    width: 1140px;
+  }
+  .no-scroll-popup .header__social {
+    margin-right: -9px;
+  }
+  .header__social-icon a:hover svg path {
+    stroke: rgb(184, 124, 255);
+  }
+  .menu__link:hover {
+    color: #B87CFF;
+    border-bottom: 2px solid #8C3EEA;
+  }
+  .header__social-icon a svg path {
+    transition: 0.5s;
+  }
+}
+.menu__link.active {
+  color: #B87CFF;
+  border-bottom: 2px solid #8C3EEA;
+}
+
+@media (max-width: 4500.98px) and (min-width: 1199.98px) {
+  .header__social-icon:hover svg path,
+  .header__social a:hover .icon-svg path {
+    fill: #rgba 184, 124, 255, 1;
+  }
+}
+#header__burger-menu .icon-menu-close {
+  display: none;
+}
+
+.header__mobile.fixed #header__burger-menu .icon-menu-close {
+  display: block;
+}
+.header__mobile.fixed #header__burger-menu .icon-menu {
+  display: none;
+}
+
+.header__mobile-bg.fixed {
+  background-color: #0D0F24;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  transition: 0.2s;
+  animation: arrow 0.8s forwards;
+}
+
+.header__mobile.fixed .header__mobile-bg {
+  background-color: #d8e1e7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  animation: arrow 0.4s forwards;
+  animation-delay: 0.2s;
+  z-index: 99999;
+}
+
+.header__mobile.closeMenu {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+.header__mobile.closeMenu .header__mobile-content {
+  height: 100vh;
+}
+.header__mobile.closeMenu .header__mobile-bg {
+  background-color: #d8e1e7;
+}
+
+.header__mobile.closeMenu .header__mobile-bg {
+  opacity: 1;
+}
+
+.header__mobile-content {
+  display: none;
+}
+
+.header__mobile-modal:hover:before {
+  background-color: #c3aa93;
+}
+
+.header__mobile-modal {
+  width: 100%;
+  padding: 6px;
+}
+.header__mobile-modal span {
+  line-height: 16px;
+}
+
+.header {
+  height: 85px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 0 auto;
+}
+@media (max-width: 1023.98px) {
+  .header {
+    height: 56px;
+  }
+}
+
+.header.header-down,
+.header.header-up {
+  background: #0B0B0B;
+}
+
+.header__popup-mobile, .header__mobile-close {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .header__mobile-block.open {
+    display: block;
+    transform: translateY(0%);
+    overflow: auto;
+    min-height: 100vh;
+    height: 100%;
+  }
+  .header__mobile-close {
+    display: block;
+    position: absolute;
+    top: 27px;
+    right: 27px;
+    width: 16px;
+    height: 16px;
+  }
+  .menu {
+    display: block;
+  }
+  .menu__link {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 0;
+    text-align: left;
+  }
+  .menu__link.active {
+    border: 0;
+  }
+  .header__socials {
+    margin-right: 0;
+    margin-left: 62px;
+    margin-top: 70px;
+  }
+  .language-dropdown {
+    margin-left: 62px;
+    margin-right: 0;
+    position: absolute;
+    bottom: 93px;
+  }
+  .language-dropdown__list {
+    background: inherit;
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+    padding: 0;
+  }
+  .header__menu {
+    padding-top: 90px;
+  }
+  .language-dropdown__button, .language-dropdown svg {
+    display: none;
+  }
+  .right-block {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
+  .header__mobile {
+    height: 70px;
+  }
+  .header__mobile.fixed .header__top {
+    padding-right: 15px;
+  }
+  .header__mobile.fixed .header__top,
+  .header__mobile.fixed .menu {
+    padding-left: 15px;
+  }
+  .header__mobile.fixed .header__top {
+    height: 480px;
+  }
+  .header__mobile.fixed .header__top .header__top-left {
+    padding-bottom: 120px;
+    margin-top: -100px;
+  }
+  .header__mobile.header__other.fixed .header__wrapper .header__bottom {
+    margin-bottom: -40px;
+  }
+}
+@media (max-width: 374.98px) {
+  .header__mobile.fixed .header__popup-mobile {
+    position: relative;
+    left: 0;
+    order: 5;
+    width: 100%;
+    top: 25px;
+  }
+  .header__mobile.fixed .header__top .header__top-left {
+    padding-bottom: 85px;
+  }
+}
+.footer {
+  position: relative;
+  overflow: hidden;
+}
+.footer__top {
+  background: #0D0F24;
+  padding: 36px 0 24px;
+}
+@media (max-width: 767.98px) {
+  .footer__top {
+    padding: 56px 0 24px;
+  }
+}
+.footer__top-content {
+  display: flex;
+}
+@media (max-width: 767.98px) {
+  .footer__top-content {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.footer__logo {
+  min-width: 85px;
+  width: 85px;
+  height: 85px;
+  border-radius: 6px;
+  margin-right: 209px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1199.98px) {
+  .footer__logo {
+    margin-right: 150px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .footer__logo {
+    margin-right: 70px;
+  }
+}
+@media (max-width: 767.98px) {
+  .footer__logo {
+    width: 58px;
+    height: 58px;
+    min-width: 58px;
+    margin-right: 24px;
+  }
+}
+.footer__logo a {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 767.98px) {
+  .footer__logo a {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+  }
+}
+.footer__logo a img {
+  border-radius: 6px;
+}
+@media (max-width: 767.98px) {
+  .footer__info {
+    width: 100%;
+    max-width: 230px;
+    margin: 64px auto 24px;
+  }
+}
+.footer__menu {
+  margin-right: 185px;
+}
+@media (max-width: 1199.98px) {
+  .footer__menu {
+    margin-right: 70px;
+  }
+}
+@media (max-width: 767.98px) {
+  .footer__menu {
+    margin-right: 0;
+  }
+}
+.footer__menu .menu__item {
+  padding: 0;
+}
+@media (max-width: 767.98px) {
+  .footer__menu .menu__item {
+    width: 50%;
+  }
+}
+.footer__menu .menu {
+  display: block;
+  margin: 0;
+}
+@media (max-width: 767.98px) {
+  .footer__menu .menu {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 200px;
+  }
+}
+.footer__menu .menu a.menu__link {
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0 0 11px 0;
+  line-height: 14px;
+}
+.footer__menu .menu .menu__link.active {
+  color: #B87CFF;
+  border-bottom: 0;
+}
+.footer__email {
+  margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+  .footer__email {
+    margin-bottom: 24px;
+  }
+}
+.footer__email a {
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer__email a svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__location {
+  width: 210px;
+}
+.footer__location p {
+  display: flex;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer__location p .icon {
+  min-width: 16px;
+  margin-right: 8px;
+}
+.footer__location p svg {
+  width: 16px;
+  height: 16px;
+}
+.footer__socials {
+  display: flex;
+  margin-top: -15px;
+}
+@media (max-width: 767.98px) {
+  .footer__socials {
+    margin: 27px auto 0;
+    width: 100%;
+    justify-content: center;
+  }
+}
+.footer__phone {
+  margin-bottom: 10px;
+  display: flex;
+  width: auto;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+@media (max-width: 767.98px) {
+  .footer__phone {
+    justify-content: flex-start;
+  }
+}
+.footer__phone a {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+@media (max-width: 767.98px) {
+  .footer__phone a {
+    justify-content: flex-start;
+    max-width: 230px;
+    margin: 0 auto;
+  }
+}
+.footer__phone a span {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: 0.5s;
+}
+.footer__phone a svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
+.footer__social-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+.footer__social-icon a svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 0;
+}
+@media (max-width: 767.98px) {
+  .footer__social-icon a {
+    padding-left: 0;
+  }
+}
+.footer__social-icon:last-child {
+  margin-right: 0;
+}
+.footer__bottom {
+  background: #000;
+  padding: 16px 0 15px;
+}
+.footer__bottom p {
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.footer__social-icon a svg path {
+  transition: 0.5s;
+}
+
+@media (max-width: 4500.98px) and (min-width: 1023.98px) {
+  .footer__menu .menu a.menu__link:hover {
+    border: 0;
+    color: #B87CFF;
+  }
+  .footer__phone a:hover span, .footer__email a:hover {
+    color: #B87CFF;
+  }
+  .footer__social-icon a:hover svg path {
+    stroke: rgb(184, 124, 255);
+  }
+  .footer__socials .footer__social-icon:last-child a:hover svg path:first-child {
+    fill: rgb(184, 124, 255);
+  }
+}
+.modal {
+  display: none;
+}
+
+.modal .modal-bg {
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  width: 100%;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  max-width: 1920px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: auto;
+  height: 100%;
+}
+
+#main-collection .modal__wrapper {
+  padding-bottom: 40px;
+}
+
+.modal__wrapper {
+  width: 399px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+  z-index: 1;
+  border-radius: 10px;
+  background: #E4E4EF;
+}
+
+.modal__block {
+  padding: 35px 39px 40px;
+}
+@media (max-width: 767.98px) {
+  .modal__block {
+    padding: 82px 19px 40px;
+  }
+}
+
+.form__messages {
+  margin-left: 3px;
+}
+.form__messages p {
+  color: #464646;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.form__messages p span {
+  color: #7339F5;
+}
+
+.modal__header {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 8px;
+}
+
+.modal .main-form {
+  margin-top: 0;
+}
+
+.modal__header .modal-close {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: -19px;
+  right: -16px;
+  background: initial;
+  border: 0;
+  z-index: 3;
+}
+
+.modal__header .modal-close svg {
+  width: 30px;
+  height: 30px;
+}
+
+.modal__header .modal-close:hover {
+  cursor: pointer;
+}
+
+.modal__title p {
+  color: #0B0B0B;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 16px;
+  padding: 0 20px;
+}
+
+#popup-thanks .wrapper {
+  height: 176px;
+}
+
+#popup-thanks .modal__title p {
+  font-size: 32px;
+  line-height: 40px;
+  color: #FCAE20;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+  .modal__title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+.modal .main-form {
+  width: 100%;
+}
+
+.modal .main-form .button-send span {
+  text-transform: initial;
+}
+
+.modal .main-form .button-send {
+  width: 100%;
+  border: 0;
+  margin-top: 37px;
+  border-radius: 30px;
+  background: var(--button, linear-gradient(90deg, #903BE9 0%, #406EF7 100%));
+  transition: 0.5s;
+}
+
+@media (max-width: 4500.98px) and (min-width: 1199.98px) {
+  .modal .main-form .button-send:hover {
+    border-radius: 30px;
+    background: linear-gradient(90deg, #6014AF 0%, #1342CE 100%);
+  }
+}
+.object__checkbox .object__filter-title-item {
+  color: rgba(62, 72, 96, 0.8);
+  font-size: 15px;
+  line-height: 18px;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.object__filter-title-item input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.modal .main-form .form__row {
+  width: 100%;
+  margin-right: 0;
+  position: relative;
+}
+
+.modal .form-control label {
+  display: flex;
+  margin-bottom: 7px;
+  align-items: center;
+}
+.modal .form-control label svg {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+.modal .form-control label span {
+  color: #0B0B0B;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 27px;
+}
+.modal .form-control label span span {
+  color: #7339F5;
+  padding-left: 0;
+}
+
+.modal.modals__modal input {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  background: #FFF;
+  height: 44px;
+  color: #0B0B0B;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  border: transparent;
+  transition: 0.5s;
+  padding: 4px 5px 8px 24px;
+}
+
+.modal .main-form .form__row:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.modals__modal input:active, .modals__modal input:hover, .modals__modal input:focus {
+  border: 1px solid #7339F5;
+}
+
+input.just-validate-error-field {
+  border-color: #b81111;
+}
+
+.modals__modal input::-moz-placeholder {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #BED4FF;
+  display: flex;
+  align-items: center;
+}
+
+.modals__modal input::placeholder {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #BED4FF;
+  display: flex;
+  align-items: center;
+}
+
+.modal .main-form__input-group .req-star {
+  top: 10px;
+}
+
+.main-form__input-group .req-star {
+  position: absolute;
+  width: 9px;
+  height: 16px;
+  top: -16px;
+  right: 0;
+}
+
+.modal .main-form__input-group {
+  position: relative;
+}
+
+textarea {
+  padding: 13px 25px;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.35);
+  min-height: 134px;
+  min-width: 100%;
+  background: rgba(255, 255, 255, 0.26);
+  border: 1px solid rgba(0, 0, 0, 0.47);
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+textarea:active {
+  border: 1px solid #fff;
+}
+
+textarea:focus, textarea:focus-visible {
+  border: 1px solid #fff;
+  outline: 0;
+}
+
+@media (max-width: 480px) {
+  .main-form .button-send {
+    width: 100%;
+  }
+}
+.form__row select {
+  width: 100%;
+  height: 60px;
+  padding: 20px 25px;
+  border: 1px solid #BED4FF;
+  background: inherit;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  /* or 147% */
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #BED4FF;
+}
+
+.form__row {
+  position: relative;
+}
+
+.form em.error {
+  font-size: 12px;
+  line-height: 18px;
+  position: absolute;
+  left: 26px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 0;
+  top: 48px;
+  padding-left: 0;
+  color: red;
+  font-style: normal;
+}
+
+@media (max-width: 767px) {
+  .form em.error {
+    top: 38px;
+    font-size: 11px;
+  }
+}
+.modal .form em.error {
+  top: 48px;
+}
+
+@media (max-width: 767px) {
+  #thanks .modal__wrapper {
+    max-height: 220px;
+  }
+}
+@media (max-width: 767px) {
+  #thanks .modal__wrapper .modal__title {
+    margin-bottom: 10px;
+  }
+}
+#thanks .modal__wrapper p {
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.modal__text p {
+  color: #0B0B0B;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.modal__header .modal-close.modal__close-btn {
+  position: relative;
+  top: inherit;
+  right: inherit;
+  height: 50px;
+  border-radius: 30px;
+  background: var(--button, linear-gradient(90deg, #903BE9 0%, #406EF7 100%));
+  width: 100%;
+  margin-top: 40px;
+  transition: background 2s ease;
+}
+.modal__header .modal-close.modal__close-btn:hover {
+  background: linear-gradient(90deg, #6014AF 0%, #1342CE 100%);
+}
+
+@media (max-width: 767px) {
+  #thanks .modal__wrapper p {
+    padding: 0 20px;
+  }
+}
+.form__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__bottom a {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #858585;
+}
+
+.form__row-checkbox {
+  margin-left: 26px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #25282e;
+}
+
+.main-form__consent {
+  padding-left: 0;
+}
+
+.main-form__consent span {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #858585;
+}
+
+.main-form__consent input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.modal.active {
+  display: block;
+  width: 100%;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  height: 100%;
+}
+
+.modal__back-arrow {
+  display: none;
+}
+
+.modal .form em.error {
+  top: 48px;
+}
+
+@media (max-width: 1023.98px) {
+  .modal__wrapper {
+    width: 500px;
+    max-width: 500px;
+  }
+}
+@media (max-width: 767px) {
+  .modal__wrapper {
+    width: 100%;
+    height: 100vh;
+  }
+  .modal__back-arrow {
+    position: absolute;
+    display: flex;
+    top: -70px;
+    left: 0;
+    color: #252525;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    align-items: center;
+  }
+  .modal__back-arrow svg {
+    margin-right: 8px;
+  }
+  .modal__header .modal-close:after {
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    left: 9px;
+  }
+  .modal__content {
+    width: 100%;
+  }
+  .modal__header .modal-close {
+    right: 15px;
+    padding: 0;
+  }
+  .modal__content-bg {
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    width: 236px;
+    transform: translateX(-50%);
+  }
+  .modal .main-form .button-send {
+    margin-top: 40px;
+  }
+  .modal__wrapper {
+    top: 0;
+    border-radius: 0;
+  }
+  .modal__header .modal-close {
+    top: -70px;
+  }
+}
+@media (max-width: 767.98px) {
+  .modal__title p {
+    font-size: 24px;
+    line-height: 30px;
+    padding: 0;
+  }
+}
+@media (max-width: 480.98px) {
+  .modal .main-form .button-send {
+    font-size: 14px;
+  }
+  .form__row-checkbox {
+    margin-left: 28px;
+  }
+  .form__checked {
+    width: 100%;
+    margin: 20px auto 0;
+  }
+  .modals__modal input {
+    height: 40px;
+  }
+  .modal .form em.error {
+    top: 40px;
+  }
+}
+.breadcrumbs__list {
+  display: flex;
+  max-width: 90%;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  padding-left: 0;
+}
+
+.breadcrumbs__item {
+  padding-right: 8px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  position: relative;
+  display: flex;
+  margin-right: 24px;
+  letter-spacing: 0;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.breadcrumbs__link {
+  display: flex;
+  transition: 0.5s;
+  text-decoration: none;
+  color: #0B0B0B;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-items: center;
+}
+@media (max-width: 1199.98px) {
+  .breadcrumbs__link {
+    font-size: 12px;
+  }
+}
+.breadcrumbs__link:hover {
+  color: #B87CFF;
+}
+
+.breadcrumbs__item.current {
+  display: block;
+  overflow: hidden;
+  min-width: 100px;
+  max-width: 300px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  flex: 1;
+  color: #7B7B7B;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.breadcrumbs__item::after {
+  position: absolute;
+  content: "";
+  top: 5px;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  display: block;
+  margin-right: -8px;
+  transition: 0.5s;
+  transform: rotate(45deg);
+  pointer-events: none;
+  border-top: 1px solid #0B0B0B;
+  border-right: 1px solid #0B0B0B;
+}
+
+.breadcrumbs__item.current:after {
+  display: none;
+}
+
+.section-pagination {
+  padding-bottom: 105px;
+  margin-top: 50px;
+}
+@media (max-width: 767.98px) {
+  .section-pagination {
+    padding-bottom: 57px;
+  }
+}
+.section-pagination__content {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.section-pagination .nav-item {
+  list-style-type: none;
+  transition: 0.5s;
+  margin: 0 5px;
+  border-radius: 4px;
+}
+@media (max-width: 4500.98px) and (min-width: 1199.98px) {
+  .section-pagination .nav-item:hover {
+    border-radius: 4px;
+    background: #7339F5;
+  }
+  .section-pagination .nav-item:hover a.number {
+    color: #fff;
+  }
+}
+.section-pagination .nav-item a.number {
+  color: #0B0B0B;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  padding: 2px 10px;
+}
+.section-pagination .active {
+  background: #7339F5;
+}
+.section-pagination .active a.number {
+  color: #fff;
+}
