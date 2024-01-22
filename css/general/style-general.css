@@ -2441,7 +2441,7 @@ input:focus {
     display: block;
     transform: translateY(0%);
     overflow: auto;
-    min-height: 100vh;
+    min-height: 100svh;
     height: 100%;
   }
   .header__mobile-close {
