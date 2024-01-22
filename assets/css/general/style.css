@@ -2217,7 +2217,7 @@ input:focus {
 }
 @media (max-width: 1023.98px) {
   .header__socials {
-    padding-bottom: 150px;
+    padding-bottom: 210px;
   }
 }
 @media (max-width: 1023.98px) {
@@ -2446,7 +2446,7 @@ input:focus {
     margin-left: 62px;
     margin-right: 0;
     position: absolute;
-    bottom: 93px;
+    bottom: 193px;
   }
   .language-dropdown__list {
     background: inherit;
