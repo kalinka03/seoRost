@@ -3184,6 +3184,10 @@ textarea:focus, textarea:focus-visible {
   top: 48px;
 }
 
+.no-scroll-popup {
+  overflow: hidden;
+}
+
 @media (max-width: 1023.98px) {
   .modal__wrapper {
     width: 500px;
