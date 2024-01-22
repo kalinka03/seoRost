@@ -2442,7 +2442,7 @@ input:focus {
     display: block;
     transform: translateY(0%);
     overflow: auto;
-    min-height: 100svh;
+    min-height: 100vh;
     height: 100%;
   }
   .header__mobile-close {
