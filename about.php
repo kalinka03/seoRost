@@ -26,7 +26,7 @@
                 <div class="about__col">
                     <div class="about__item">
                         <div class="about__photo">
-
+                            <img src="assets/images/about/photo1.jpg" alt="">
                         </div>
                         <div class="about__info">
                             <div class="about__name">
@@ -36,7 +36,29 @@
                                 Lorem ipsum dolor sit amet
                             </div>
                             <div class="about__description">
-                                Lorem ipsum dolor sit amet, consectetur  elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__col">
+                    <div class="about__item">
+                        <div class="about__photo">
+                            <img src="assets/images/about/photo2.jpg" alt="">
+                        </div>
+                        <div class="about__info">
+                            <div class="about__name">
+                                Олександр Войкут
+                            </div>
+                            <div class="about__position">
+                                Lorem ipsum dolor sit amet
+                            </div>
+                            <div class="about__description">
+                                Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
                             </div>
                         </div>
                     </div>
@@ -46,11 +68,56 @@
 
 
         </div>
-
-
-
-
     </div>
+        <div class="about-us">
+            <div class="container">
+                <div class="main-title">
+                    <div class="subtitle size-18 color-purple">
+                        <p>Про нас</p>
+                    </div>
+                    <div class="title size-40 color-black">
+                        <p class="name">Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <div class="about-us__description">
+                    <div class="about-us__item">
+                        <div class="about-us__photo-block">
+                            <div class="about-us__photo">
+                                <img src="assets/images/about/photo3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="about-us__text">
+                            <p>На самому початку робіт ми побачили необхідність у проведенні технічних доробок після
+                                завершення розробки нового сайту. Зокрема, необхідно було підкоригувати послідовність
+                                верстки, щоб пошуковий бот бачив структуру сайту в належному порядку.</p>
+                            <p>
+                                Також було надано безліч рекомендацій щодо поліпшення Головної сторінки та Карток
+                                товарів з точки зору SEO. На самому початку робіт ми побачили необхідність у проведенні
+                                технічних На самому початку робіт ми побачили необхідність у проведенні техніч доробок
+                                після завершення розробки нового сайту. Зокрема, необхідно було.</p>
+                        </div>
+                    </div>
+                    <div class="about-us__item">
+                        <div class="about-us__photo-block">
+                            <div class="about-us__photo">
+                                <img src="assets/images/about/photo3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="about-us__text">
+                            <h2>Стан проєкту на старті робіт</h2>
+                            <p>На самому початку робіт ми побачили необхідність у проведенні технічних доробок після
+                                завершення розробки нового сайту. Зокрема, необхідно було підкоригувати послідовність
+                                верстки, щоб пошуковий бот бачив структуру сайту в належному порядку.</p>
+                            <p>
+                                Також було надано безліч рекомендацій щодо поліпшення Головної сторінки та Карток
+                                товарів з точки зору SEO. На самому початку робіт ми побачили необхідність у проведенні
+                                технічних На самому початку робіт ми побачили необхідність у проведенні техніч доробок
+                                після завершення розробки нового сайту. Зокрема, необхідно було.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 </div>
 <section class="leave-request lazy-background leave-request__last">
     <div class="container">
@@ -132,7 +199,9 @@
             </div>
             <div class="leave-request__photo-block">
                 <div class="leave-request__photo">
-                    <img class="lazy-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="assets/images/main/block10/photo.png" alt="">
+                    <img class="lazy-image"
+                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                         data-src="assets/images/main/block10/photo.png" alt="">
                 </div>
             </div>
         </div>
@@ -142,6 +211,6 @@
 <?php include("template/popUps.php") ?>
 <?php include("template/footer.php") ?>
 <link rel="stylesheet" type="text/css" href="/assets/css/pages/about.css">
-<script  type="text/javascript"  src="/js/about.js"></script>
+<script type="text/javascript" src="/js/about.js"></script>
 </body>
 </html>

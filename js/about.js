@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-    makeValidation('form-contact-us', ['name', 'phone', 'email']);
+    makeValidation('form-leave-request2', ['name', 'phone', 'email', 'siteName']);
 });

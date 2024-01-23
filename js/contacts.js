@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let map;
         let marker;
         let marketIcon = {
-            url: '/assets/images/map/location.svg'
+            url: 'assets/images/map/location.svg'
             // size: new google.maps.Size(49, 65),
             // origin: new google.maps.Point(-3, 0),
             // anchor: new google.maps.Point(-40, 140)

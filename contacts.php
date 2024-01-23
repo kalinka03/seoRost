@@ -30,8 +30,8 @@
                         </svg>
                         Наші телефони
                     </div>
-                    <a href="+380939972677">+38 (093) 997-26-77</a>
-                    <a href="+380939972677">+38 (093) 997-26-77</a>
+                    <a href="tel:+380939972677">+38 (093) 997-26-77</a>
+                    <a href="tel:+380939972677">+38 (093) 997-26-77</a>
                 </div>
                 <div class="contacts__email">
                     <a href="mailto:info@seorost.com" class="contacts__email-title">

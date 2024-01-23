@@ -12,12 +12,20 @@
 .cart__photo {
   width: 100%;
   height: 222px;
+  position: relative;
+  overflow: hidden;
 }
 .cart__photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 4px;
+  transition: 0.5s;
+}
+.cart__photo img:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transform: scale(1.1);
 }
 .cart__description {
   border-radius: 10px;
@@ -33,6 +41,7 @@
 @media (max-width: 767.98px) {
   .cart__description {
     padding: 27px 16px;
+    height: auto;
   }
 }
 .cart__description .title {
