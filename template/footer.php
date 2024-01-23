@@ -5,7 +5,7 @@
                 <div class="footer__top-content">
                     <div class="footer__logo">
                         <a href="/">
-                            <img class="lazy-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="assets/images/header/logo2.svg" alt="">
+                            <img class="lazy-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="assets/images/header/logo3.svg" alt="">
                         </a>
                     </div>
                     <div class="footer__menu">

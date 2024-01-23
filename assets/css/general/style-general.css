@@ -2137,22 +2137,21 @@ input:focus {
   }
 }
 .header__logo {
-  width: 85px;
-  height: 85px;
-  background: #fff;
+  width: 87px;
+  height: 87px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .header__logo a {
-  width: 60px;
-  height: 60px;
+  width: 87px;
+  height: 87px;
   display: block;
 }
 @media (max-width: 1023.98px) {
   .header__logo a {
-    width: 40px;
-    height: 40px;
+    width: 46px;
+    height: 46px;
   }
 }
 @media (max-width: 1023.98px) {
@@ -2276,7 +2275,7 @@ input:focus {
   padding: 0;
   position: relative;
   display: flex;
-  margin: 0 45px 0 91px;
+  margin: 0 45px 0 88px;
 }
 @media (max-width: 1199.98px) {
   .menu {
@@ -2541,12 +2540,11 @@ input:focus {
   }
 }
 .footer__logo {
-  min-width: 85px;
-  width: 85px;
-  height: 85px;
+  min-width: 87px;
+  width: 87px;
+  height: 87px;
   border-radius: 6px;
   margin-right: 209px;
-  background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2570,17 +2568,18 @@ input:focus {
   }
 }
 .footer__logo a {
-  width: 60px;
-  height: 60px;
+  width: 87px;
+  height: 87px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 @media (max-width: 767.98px) {
   .footer__logo a {
-    width: 40px;
-    height: 40px;
-    min-width: 40px;
+    width: 54px;
+    height: 54px;
+    min-width: 54px;
+    margin-top: -7px;
   }
 }
 .footer__logo a img {

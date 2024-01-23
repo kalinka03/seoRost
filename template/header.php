@@ -15,7 +15,7 @@
                 <div class="top-menu">
                     <div class="header__logo">
                         <a href="/">
-                                                        <img fetchpriority="high" src="assets/images/header/logo2.svg" alt="">
+                                                        <img fetchpriority="high" src="assets/images/header/logo3.svg" alt="">
                         </a>
                     </div>
                     <div class="mobile-menu__content">
