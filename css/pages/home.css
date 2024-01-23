@@ -136,7 +136,7 @@
   .main__content {
     padding-left: 0;
     padding-top: 102px;
-    max-width: 350px;
+    max-width: 340px;
   }
 }
 .main__popup {
@@ -1394,7 +1394,11 @@
   background-repeat: no-repeat;
   transition: 0.5s;
 }
-
+@media (max-width: 767.98px) {
+  .question:after {
+    top: 0;
+  }
+}
 @media (max-width: 4500.98px) and (min-width: 1199.98px) {
   .question.active:hover:after {
     background-color: #471AAB;
