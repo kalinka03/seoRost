@@ -16,7 +16,9 @@
   line-height: normal;
   letter-spacing: 0;
 }
-
+.cart__description{
+  height: auto;
+}
 .title-main {
   margin-bottom: 30px;
   margin-top: 70px;

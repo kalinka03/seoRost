@@ -46,6 +46,10 @@
   }
 }
 
+.cart__description {
+  height: auto;
+}
+
 .cases {
   background: #F6F6F8;
   padding-top: 110px;
