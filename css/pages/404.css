@@ -1,0 +1,132 @@
+.header {
+  background: #0B0B0B;
+}
+
+.error-page {
+  background: #0c0c3a;
+  padding-top: 180px;
+  padding-bottom: 120px;
+}
+@media (max-width: 767.98px) {
+  .error-page {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+}
+.error-page h1 {
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  font-size: 120px;
+  line-height: 150px;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+@media (max-width: 767.98px) {
+  .error-page h1 {
+    font-size: 90px;
+    line-height: 90px;
+  }
+}
+.error-page .sub-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  width: 100%;
+  margin-bottom: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+@media (max-width: 1023.98px) {
+  .error-page .sub-title {
+    font-size: 26px;
+  }
+}
+@media (max-width: 767.98px) {
+  .error-page .sub-title {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 20px;
+  }
+}
+.error-page p {
+  color: #7339F5;
+}
+
+.error-page__info p {
+  text-align: center;
+  color: #7339F5;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 465px;
+  margin: 0 auto;
+}
+@media (max-width: 767.98px) {
+  .error-page__info p {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 20px;
+  }
+}
+
+.error-page__button {
+  width: 360px;
+  height: 50px;
+  border: 0;
+  border-radius: 30px;
+  background: var(--button, linear-gradient(90deg, #903BE9 0%, #406EF7 100%));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  margin: 50px auto 20px;
+  transition: 0.5s;
+}
+.error-page__button:hover {
+  background: linear-gradient(90deg, #6014AF 0%, #1342CE 100%);
+}
+@media (max-width: 767.98px) {
+  .error-page__button {
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 280px;
+  }
+}
+
+.error-page__text {
+  width: 460px;
+  margin: 0 auto;
+}
+@media (max-width: 767.98px) {
+  .error-page__text {
+    width: 100%;
+  }
+}
+.error-page__text p {
+  text-align: center;
+  color: #7339F5;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+@media (max-width: 767.98px) {
+  .error-page__text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 20px;
+  }
+}
+/*# sourceMappingURL=404.css.map */
